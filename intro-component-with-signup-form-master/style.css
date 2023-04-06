@@ -1,3 +1,32 @@
+:root {
+    /*cores*/
+
+    --rosa_fundo: #f59b71;
+    --azul_botao: #2b4c7e;
+    --verde_botao: #0a8967;
+    --branco: #ffffff;
+    
+}
+
+body{
+    color: var(--branco) ;
+    background-color: var(--rosa_fundo);
+}
+
 .learn{
-    font-size: 20px;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 25px;
+
+}
+
+.learn_primeira_linha{
+    font-size: 25px;
+    width: 70%;
+    
+
+    
 }
