@@ -5,12 +5,18 @@
     --azul_botao: #2b4c7e;
     --verde_botao: #0a8967;
     --branco: #ffffff;
+    --cor_escura_fonte: #33454e;
     
 }
 
 body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: var(--branco) ;
     background-color: var(--rosa_fundo);
+    text-align: center;
 }
 
 .learn{
@@ -20,42 +26,91 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     padding: 25px;
+    text-align: center;
 
 }
 
 .learn_primeira_linha{
     font-size: 25px;
     width: 70%; 
+    margin-bottom: 20px;
+
 }
 
 .learm_segunda_linha{
+    margin-top: 20px;
     font-size: 50px;   
 
 }
 .teste_gratis{
     border-radius: 8px;
-    padding: 1.2em;
+    padding: 15px;
     background-color: var(--azul_botao);
     color: var(--branco);
     justify-content: center;
+    width: 21em;
+    
 
 }
+
+
 
 form{
-    width: 20em;
+    
+
+    margin-top: 15px;
+    width: 16em;
     font-size: 1em;
+    color: var(--cor_escura_fonte);
+    background-color: var(--branco);
+    border-radius: 8px;
+    border: transparent;
+    padding: 1em;
 }
 
-form fieldset{
-    border: 1px solid;
-    padding: 0 0.5em;
+fieldset{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
     
 }
+
+fieldset input{
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+
 form legend{
     padding: 0 0.5em;
-    border: 1px solid;
+    border: 1px transparent;
+    margin-top: 10px;
+}
+label{
+    margin-bottom: 15px;
+    font-size: 15px;
+    
 }
 .solicite{
+    margin-top: 10px;
+    border-radius: 6px;
+    padding: 15px;
     color: var(--branco);
     background-color: var(--verde_botao);
+    width: 90%;
+}
+
+fieldset label{
+    font-size: 12px;
+    text-align: center;
+}
+.attribution{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    width: 60%;
+    margin-left: 70px;
 }
