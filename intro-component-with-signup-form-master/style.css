@@ -183,6 +183,10 @@ fieldset label{
 
 @media screen and (min-width:1440px){
 
+    body{
+        width: 90%;
+    }
+
     
     .Learn_conteiner{
        display: flex;
@@ -222,7 +226,7 @@ fieldset label{
         flex-direction: column;
         margin-left: 40%;
         margin-top: -400px;
-        width: 50%;
+        width: 60%;
     }
 
     .teste_gratis{
