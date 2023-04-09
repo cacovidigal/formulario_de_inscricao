@@ -116,7 +116,70 @@ fieldset label{
     margin-left: 70px;
 }
 
+@media screen and (min-width: 600px) {
+    .Learn_conteiner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-right:  50%;
+        margin-top: 200px;
+        margin-left: 300px;
+        width: 60%;
+               
+     
+     }
 
+     .learn_primeira_linha{
+        
+        font-size: 60px;
+        width: 50%; 
+        margin-bottom: 20px;
+        
+    
+    }
+    .learn_segunda_linha{
+
+        margin-top: 20px;
+        font-size: 25px;
+        width: 50%;
+        margin-bottom: 20px;   
+        
+    }
+    nav{
+
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-left: 40%;
+        margin-top: -400px;
+        width: 50%;
+    }
+    .teste_gratis{
+        border-radius: 10px;
+        padding: 15px;
+        background-color: var(--azul_botao);
+        color: var(--branco);
+        justify-content: center;
+        width: 30em;
+        flex-grow:1 ;
+            
+        }
+    
+    form{
+            width: 55%;
+            
+        }
+    .attribution{
+            margin-top: 10px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+
+    
+}
 
 @media screen and (min-width:1440px){
 
